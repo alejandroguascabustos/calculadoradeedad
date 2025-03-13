@@ -1,0 +1,46 @@
+/* Edita tipo de letra, texto y margenes del archivo general */
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20% ;
+    margin-left: 20% ;
+    margin-right: 20% ;
+    background-color: #6600a1;
+    color: white;
+}
+
+label{
+    font-size: 20px;
+}
+
+/* Edita tamaño y forma de la casilla de entrada de datos */
+
+input{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+/* Edita el boton, su forma y color */
+button{
+    background-color: violet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    transition: 0.1s;
+    background-color: white;
+    color: white;
+    border: solid 1px;
+    border-color: violet; 
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 20px;
+}
